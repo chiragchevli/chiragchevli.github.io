@@ -1,7 +1,7 @@
 chiragchevli.github.io
 ====================
 
-# Hello world!
+# Hello world! :smile:
 
 
 My Github user page is at: 
@@ -11,7 +11,5 @@ My Github Pages repo can be found at:
 https://github.com/chiragchevli.github.io/
 
 And, soon, you can see my customized homepage at:
-
- :smile:
  
-http://chiragchevli.github.io/
+:smile: http://chiragchevli.github.io/ :blush:
