@@ -12,5 +12,6 @@ https://github.com/chiragchevli.github.io/
 
 And, soon, you can see my customized homepage at:
 
-
+ :smile:
+ 
 http://chiragchevli.github.io/
