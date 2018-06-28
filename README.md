@@ -8,7 +8,7 @@ My Github user page is at:
 https://github.com/chiragchevli/
 
 My Github Pages repo can be found at:  
-https://github.com/chiragchevli.github.io/
+https://github.com/chiragchevli/chiragchevli.github.io
 
 And, soon, you can see my customized homepage at:
  
