@@ -113,6 +113,8 @@ window.animations = (function() {
 
   var current = url.int('palette', 0);
   var _colors = {};
+
+
   var colors = {};
 
   _.each(PALETTE[current], function(v, k) {
@@ -2612,8 +2614,10 @@ window.animations = (function() {
 
     updateAudio: function(callback) {
 
+      
+
       var letters = ['A', 'B', 'C', 'D', 'E', 'F', 'G'];
-      var path = window.location.href.match(/localhost/i) ? '/assets/' : '//storage.googleapis.com/cdn.patatap.com/';
+      var path = 'assets/';
       var filetype = '.mp3';
       var list = _.filter(exports.list, function(o) {
         return _.isArray(o.sounds);
@@ -2657,6 +2661,7 @@ window.animations = (function() {
         o.sound = sound;
       });
 
+      
       return exports;
 
 

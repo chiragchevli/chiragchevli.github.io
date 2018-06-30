@@ -1,8 +1,16 @@
-Neuronal Synchrony
-==================
+# Patatap clone
 
-A collection of two dimensional animations that are triggered by sound.
+> Patatap is a portable animation and sound kit. When key is pressed it create melodies charged with moving shapes!
 
-(c) 2012 - 2013 [jonobr1](http://jonobr1.com/). Freely distributed under the [MIT License](http://opensource.org/licenses/MIT).
+> Just Run "Index.html" 
 
-Prototyped with [Processing](http://processing.org/), built with [JavaScript](http://jonobr1.github.com/two.js).
+> :wink: **Happy Patatapping!** :wink:
+
+> [Lets visit!](https://chiragchevli.github.io/projects/Patatap_clone/ "Yayy!!")
+
+
+
+> [Original](https://github.com/jonobr1/Neuronal-Synchrony)
+
+
+
