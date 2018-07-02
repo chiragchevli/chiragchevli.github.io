@@ -2345,6 +2345,35 @@ canvas {
   text-align: center !important;
 }
 
+@media screen and (max-width: 768px) 
+{
+  #menuToggle
+  {
+    display: none;
+  }
+  toggle-normal
+  {
+    display: none;
+  }
+  #theMenu
+  {
+    display: none;
+  }
+ 
+  #education
+  {
+    display: none;
+  }
+  #quotes
+  {
+    display: none;
+  }
+  #three-container
+  {
+    display: none;
+
+  }
+}
 
 
 /* --------------------------- Own ------------------------------------ */
