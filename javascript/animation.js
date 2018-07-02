@@ -272,7 +272,10 @@
         window.innerWidth / window.innerHeight,
         params.zNear,
         params.zfar
+
+        
       );
+      this.render.context.getShaderInfoLog = function () { return '' };
 
       this.scene = new THREE.Scene();
 
