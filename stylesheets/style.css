@@ -2371,8 +2371,23 @@ canvas {
   #three-container
   {
     display: none;
-
   }
+  #skills
+  {
+    display: none;
+  }
+  #experience
+  {
+    display: none;
+  }
+  #interest
+  {
+    display: none;
+  }
+  #myMap
+  {
+    display: none;
+  }  
 }
 
 
