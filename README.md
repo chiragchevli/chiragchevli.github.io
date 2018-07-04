@@ -5,4 +5,4 @@ chiragchevli.github.io
 
 > You can see my customized homepage at: 
 
-> :smile: http://chiragchevli.github.io/ :blush:
+> :smile: https://chiragchevli.github.io/ :blush:
