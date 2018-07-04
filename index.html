@@ -25,9 +25,11 @@
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
-    <!-- GOOGLE FONT -->
+    <!-- GOOGLE FONT & Recaptcha -->
     <link href='https://fonts.googleapis.com/css?family=Raleway:500' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
 
 
     <!-- MATERIAL ICON FONT -->
@@ -839,6 +841,8 @@
                                     <textarea id="textarea1" class="materialize-textarea" name="message" required></textarea>
                                     <label for="textarea1">Message</label>
                                 </div>
+                                <div class="g-recaptcha" data-sitekey="6Lf8RWIUAAAAAF3qo_1oY4qGpnDjdmGQHomWRrqC"></div>
+
                                 <!-- SEND BUTTON -->
                                 <div class="contact-send">
                                     <button id="submit" name="contactSubmit" type="submit" value="Submit" class="btn waves-effect">Send
