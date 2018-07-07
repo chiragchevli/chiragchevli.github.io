@@ -9,49 +9,44 @@
             padding: 0;
         }
 
-        .imgbox {
-            display: grid;
-            height: 100%;
+        body {
+            text-align-last: center;
         }
 
-        .center-fit {
-            max-width: 100%;
-            max-height: 100vh;
-            margin: auto;
-        }
-
-        .img-wrapper {
+        .imagewrap {
+            display: inline-block;
             position: relative;
-            width: 100%;
         }
 
-        .img-overlay {
+        .button3 {
             position: absolute;
-            top: 0;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            text-align: center;
+            right: 38%;
+            top: 10%;
         }
-
-        .img-overlay:before {
-            content: ' ';
-            display: block;
-            /* adjust 'height' to position overlay content vertically */
-            height: 33%;
+        a
+        {
+            text-decoration: none !important;
+            color: white !important;
+        }
+        a:hover
+        {
+            text-decoration: none !important;
         }
     </style>
 
 </head>
 
 <body style="background-color: #ebecee">
-</body>
-<div class="img-wrapper">
-    <img class="imgbox center-fit" src="https://l5vd03xwb5125jimp1nwab7r-wpengine.netdna-ssl.com/wp-content/uploads/2017/06/best-404-page-design-10.jpg" style="bottom: 70% ";>
-       <a href="https://chiragchevli.github.io/"><button class="btn btn-md btn-success" style="background-color: #686f89; border:none; ">Get Me out Of here!</button>
+    <div class="imagewrap ">
+        <img src="https://l5vd03xwb5125jimp1nwab7r-wpengine.netdna-ssl.com/wp-content/uploads/2017/06/best-404-page-design-10.jpg ">
+
+        <button class="btn btn-md btn-success button3" style="background-color: #686f89; border:none; ">
+            <a href="https://chiragchevli.github.io/">Get Me out Of here!</a>
+        </button>
     </div>
 
-</div>
+    
 </body>
+
 
 </html>
