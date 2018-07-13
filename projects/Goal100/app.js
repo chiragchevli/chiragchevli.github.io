@@ -11,8 +11,14 @@ GAME RULES:
 
 // Get All Data 
 var sum;
-var p1_name = document.querySelector("#name-0");
-var p2_name = document.querySelector("#name-1");
+
+var p1_name = prompt("Enter Player 1 name: ","player 1");
+var p2_name = prompt("Enter Player 2 name: ","player 2");
+
+document.querySelector("#name-0").textContent = p1_name;
+document.querySelector("#name-1").textContent = p2_name;
+
+
 
 var p1_score = document.querySelector("#score-0");
 var p2_score = document.querySelector("#score-1");
@@ -49,8 +55,8 @@ function newgame()
   document.querySelector(".player-0-panel").classList.remove("winner");
   document.querySelector(".player-0-panel").classList.add("active");
   document.querySelector(".player-1-panel").classList.remove("winner","active");
-  p1_name.textContent = "Player 1";
-  p2_name.textContent = "Player 2";
+  document.querySelector("#name-0").textContent = p1_name;
+  document.querySelector("#name-1").textContent = p2_name;
   active = document.querySelector(".active").getAttribute("id");  
   randomimage();
 }
