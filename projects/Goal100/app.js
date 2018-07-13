@@ -114,7 +114,7 @@ function checkwin()
     document.querySelector(".player-1-panel").classList.remove("active");
     document.querySelector(".btn-roll").style.display = "none";
     document.querySelector(".btn-hold").style.display = "none";
-    p1_name.innerHTML="PLAYER 1 <i class=\"fa fa-trophy\"></i>"; 
+    document.querySelector("#name-0").innerHTML=p1_name + "<i class=\"fa fa-trophy\"></i>";
   }
   else if (active=="p2" && sum + parseInt(p2_score.textContent) >= 100) 
   {
@@ -125,7 +125,7 @@ function checkwin()
     document.querySelector(".player-0-panel").classList.remove("active");
     document.querySelector(".btn-roll").style.display = "none";
     document.querySelector(".btn-hold").style.display = "none";
-    p2_name.innerHTML="PLAYER 2 <i class=\"fa fa-trophy\"></i>"; 
+    document.querySelector("#name-1").innerHTML=p2_name + "<i class=\"fa fa-trophy\"></i>";
   }
 }
 
