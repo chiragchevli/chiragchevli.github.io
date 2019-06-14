@@ -14,7 +14,7 @@
       root.camera.position.set(0, 0, 60);
 
       var width = 110;
-      var height = 90;
+      var height = 110;
 
       var slide = new Slide(width, height, 'out');
       var l1 = new THREE.ImageLoader();
